@@ -1,4 +1,4 @@
-import { SystemManifest } from './definitions';
+import { SystemManifest, TemplateManifest } from './definitions';
 
 export const DnD5wSystemManifest: SystemManifest = {
   id: 'dnd5w',
@@ -16,3 +16,6 @@ export const DnD5wSystemManifest: SystemManifest = {
     minimum: '10',
   },
 }
+
+export const DnD5wDataTemplate: TemplateManifest = {
+};
